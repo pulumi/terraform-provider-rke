@@ -1,3 +1,33 @@
+## 1.2.4 (Oct 12, 2021)
+
+FEATURES:
+
+
+
+ENHANCEMENTS:
+
+* Updated RKE to v1.2.13
+* Added release binary for darwin arm64
+
+BUG FIXES:
+
+* Fix provider crash if `getClusterState` returns err 
+
+## 1.2.3 (Jun 24, 2021)
+
+FEATURES:
+
+
+
+ENHANCEMENTS:
+
+* Updated RKE to v1.2.9
+* Updated golang to v1.16.5
+
+BUG FIXES:
+
+
+
 ## 1.2.2 (May 7, 2021)
 
 FEATURES:
