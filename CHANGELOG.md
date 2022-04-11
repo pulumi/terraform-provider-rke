@@ -1,3 +1,35 @@
+## 1.3.0 (Dec 20, 2021)
+
+FEATURES:
+
+* **New Argument:** `rke_cluster.bastion_host.ignore_proxy_env_vars` - (Optional) Ignore proxy env vars at Bastion Host? Default: `false` (bool)
+
+ENHANCEMENTS:
+
+* Updated RKE to v1.3.3
+* Updated `rke_cluster.services.kube_api.secrets_encryption_config.custom_config` go struct to proper marshal/unmarshal at RKE v1.3.3
+
+BUG FIXES:
+
+
+
+## 1.2.5 (Dec 10, 2021)
+
+FEATURES:
+
+* **New Argument:** `rke_cluster.ingress.http_port` - (Optional) Ingress controller http port (int)
+* **New Argument:** `rke_cluster.ingress.https_port` - (Optional) Ingress controller https port (int)
+* **New Argument:** `rke_cluster.ingress.network_mode` - (Optional) Networt mode for the ingress controller. `hostNetwork`, `hostPort` and `none` are supported (string)
+
+
+ENHANCEMENTS:
+
+* Updated RKE to v1.2.14
+
+BUG FIXES:
+
+
+
 ## 1.2.4 (Oct 12, 2021)
 
 FEATURES:
