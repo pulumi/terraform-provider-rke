@@ -8,10 +8,6 @@ import (
 
 func rkeClusterCertificatesFields() map[string]*schema.Schema {
 	s := map[string]*schema.Schema{
-		"id": {
-			Type:     schema.TypeString,
-			Computed: true,
-		},
 		"certificate": {
 			Type:      schema.TypeString,
 			Computed:  true,
